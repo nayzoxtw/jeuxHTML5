@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+      <!-- Navigation -->
+  <div class="navigation">
+    <a href="../arc/index.html">
+      <span class="icon">
+        <ion-icon name="game-controller-outline"></ion-icon>
+      </span>
+      <span class="text">Guess the number</span>
+    </a>
+    <a href="../clique sur les formes/index.html">
+      <span class="icon">
+        <ion-icon name="shapes-outline"></ion-icon>
+      </span>
+      <span class="text">Clique sur les formes</span>
+    </a>
+    <a href="../démineur/index.html">
+      <span class="icon">
+        <ion-icon name="alert-circle-outline"></ion-icon>
+      </span>
+      <span class="text">Démineur</span>
+    </a>
+    <a href="../jack a dit a dit/index.html">
+      <span class="icon">
+        <ion-icon name="chatbubble-outline"></ion-icon>
+      </span>
+      <span class="text">Jack a dit</span>
+    </a>
+    <a href="../snake/index.html">
+      <span class="icon">
+        <ion-icon name="logo-game-controller-b" style="font-size: 24px;"></ion-icon>
+      </span>
+      <span class="text">Snake</span>
+    </a>
+    <a href="../info.html">
+      <span class="icon">
+        <ion-icon name="information-circle-outline"></ion-icon>
+      </span>
+      <span class="text">Info</span>
+    </a>
+    <a href="../pacman-master/index.html">
+        <span class="icon">
+          <ion-icon name="information-circle-outline"></ion-icon>
+        </span>
+        <span class="text">Pacman</span>
+      </a>
+  </div>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: url('../image.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  
+    .menu {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 80px;
+      background: rgba(0, 0, 0, 0.7);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+      color: white;
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+  
+    .navigation {
+      width: 100%;
+      background: rgba(255, 255, 255, 0.9);
+      position: absolute;
+      top: 80px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 10px 0;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+  
+    .navigation a {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-decoration: none;
+      color: #151F28;
+      font-weight: 500;
+      transition: color 0.3s, transform 0.3s;
+    }
+  
+    .navigation a .icon {
+      font-size: 1.5rem;
+      margin-bottom: 5px;
+    }
+  
+    .navigation a:hover {
+      color: #29fd53;
+      transform: translateY(-5px);
+    }
+  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explication des Jeux</title>
+    <link rel="stylesheet" href="./style2.css">
+    <link rel="stylesheet" href="./font.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+        .game-description {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .game-description h2 {
+            color: #007BFF;
+        }
+        .game-description ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .game-description ul li {
+            margin: 10px 0;
+        }
+        .back-link {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .back-link a {
+            color: #007BFF;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Bienvenue sur la Page d'Explication des Jeux</h1>
+    
+    <div class="game-description">
+        <h2>Guess the Number</h2>
+        <ul>
+            <li><strong>Objectif:</strong> Deviner le bon nombre.</li>
+            <li><strong>Contrôles:</strong> Utilise les flèches pour entrer tes suppositions et démarrer le jeu.</li>
+        </ul>
+    </div>
+    
+    <div class="game-description">
+        <h2>Clique sur les Formes</h2>
+        <ul>
+            <li><strong>Objectif:</strong> Clique sur les formes avant qu'elles ne disparaissent.</li>
+            <li><strong>Contrôles:</strong> Clique sur les formes avec la souris.</li>
+        </ul>
+    </div>
+
+    <div class="game-description">
+        <h2>Démineur</h2>
+        <ul>
+            <li><strong>Objectif:</strong> Dévoiler toutes les cases sans toucher de mine.</li>
+            <li><strong>Contrôles:</strong> Clique sur les cases pour les découvrir.</li>
+        </ul>
+    </div>
+
+    <div class="game-description">
+        <h2>Jack a dit</h2>
+        <ul>
+            <li><strong>Objectif:</strong> Suivre les instructions, mais seulement si "Jack a dit".</li>
+            <li><strong>Contrôles:</strong> Suis les instructions avec la souris ou les touches du clavier.</li>
+        </ul>
+    </div>
+
+    <div class="game-description">
+        <h2>Snake</h2>
+        <ul>
+            <li><strong>Objectif:</strong> Manger la nourriture sans toucher les murs ou ton corps.</li>
+            <li><strong>Contrôles:</strong> Utilise les flèches pour déplacer le serpent.</li>
+        </ul>
+    </div>
+
+    <div class="back-link">
+        <a href="index.html">Retour au menu principal</a>
+    </div>
+
+</body>
+</html>
