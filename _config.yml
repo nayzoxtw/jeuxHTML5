@@ -1,1 +1,25 @@
-include: ["_pages"]
+# Configuration de GitHub Pages
+title: "Techno 2"
+description: "Site web contenant plusieurs projets interactifs"
+theme: null  # Désactive Jekyll pour éviter les problèmes avec les fichiers CSS/JS
+
+# Autoriser tous les fichiers
+include:
+  - ".vscode"
+  - "arc"
+  - "clique sur les formes"
+  - "démineur"
+  - "jack a dit a dit"
+  - "snake"
+  - "font.css"
+  - "import.css"
+  - "info.html"
+  - "script.js"
+  - "style.css"
+
+# Désactiver Jekyll pour que tous les fichiers soient pris en compte
+exclude:
+  - "README.md"
+
+# Configurer les URLs relatives
+permalink: pretty
